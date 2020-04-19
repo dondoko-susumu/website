@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          Copyright © どんどこすすむ  2008 - {new Date().getFullYear()}
+          © どんどこすすむ  2008 - {new Date().getFullYear()}
         </footer>
       </div>
     </>
