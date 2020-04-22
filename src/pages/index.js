@@ -47,6 +47,9 @@ const IndexPage = () => (
       <a href={"https://b.hatena.ne.jp/dondoko_susumu/"} target="blank">どんどこすすむのブックマーク</a>
     </p>
     <p>
+      <a href={"https://scrapbox.io/dondoko-susumu/"} target="blank">どんどこすすむのメモ</a>
+    </p>
+    <p>
       <a href={"https://speakerdeck.com/dondoko_susumu"} target="blank">どんどこすすむのスピーカーデック</a>
     </p>
     <p>
