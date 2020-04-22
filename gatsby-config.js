@@ -3,6 +3,7 @@ module.exports = {
     title: `どんどこすすむのホームページ`,
     description: `どんどこすすむ公式ホームページ`,
     author: `@dondoko_susumu`,
+    siteURL: 'https://xn--28jma5da5l6e.com',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

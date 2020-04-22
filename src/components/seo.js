@@ -20,6 +20,7 @@ function SEO({ description, lang, meta, title }) {
             title
             description
             author
+            siteURL
           }
         }
         ogImage: file(relativePath: {eq: "kabagorou.png"}) {
@@ -29,6 +30,7 @@ function SEO({ description, lang, meta, title }) {
     `
   )
 
+  const ogImageURL = `${site.siteMetadata.siteURL}${ogImage.publicURL}`
   const metaDescription = description || site.siteMetadata.description
 
   return (
@@ -57,7 +59,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:image`,
-          content: ogImage.publicURL,
+          content: ogImageURL,
         },
         {
           name: `twitter:card`,
